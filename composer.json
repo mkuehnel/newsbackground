@@ -1,0 +1,27 @@
+{
+    "name": "j77/newsbackground",
+    "type": "typo3-cms-extension",
+    "description": "",
+    "authors": [
+        {
+            "name": "J77 DaPedro",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+
+    },
+    "autoload": {
+
+    },
+    "replace": {
+        "newsbackground": "self.version",
+        "j77/newsbackground": "self.version"
+    },
+    "extra": {
+        "typo3/cms": {
+            "cms-package-dir": "{$vendor-dir}/typo3/cms",
+            "web-dir": ".Build/Web"
+        }
+    }
+}
